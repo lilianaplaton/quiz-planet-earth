@@ -59,7 +59,7 @@
         }, {
             question: "How many people live on Earth?",
             a: "6.8 billion",
-            b: "8 billion",
+            b: "8.5 billion",
             c: "7 billion",
             d: "7.9 billion",
             correct: "d",
@@ -130,7 +130,7 @@
                     loadQuiz()
                 } else {
                     quiz.innerHTML = `
-           <h1>You answered ${score}/${quizData.length} questions correctly</h1>
+           <h1>You answered ${score}|${quizData.length} questions correctly</h1>
            <button onclick="location.reload()">Reload</button>
            `
                 }
