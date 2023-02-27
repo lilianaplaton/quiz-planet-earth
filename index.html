@@ -36,7 +36,7 @@
 
             </ul>
         </div>
-        <button id="submit">Next question</button>
+        <button id="submit">Submit</button>
     </div>
 
     <!--______________________________________ JavaScript________________________________________-->
@@ -81,7 +81,7 @@
             a: "David Randolph Scott",
             b: "Neil Alden Armstrong",
             c: "Edwin Eugene Aldrin",
-            d: "Liliana Platon",
+            d: "Yuri Gagarin",
             correct: "b",
         }, ];
         const quiz = document.getElementById('quiz')
@@ -130,7 +130,7 @@
                     loadQuiz()
                 } else {
                     quiz.innerHTML = `
-           <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+           <h1>You answered ${score}/${quizData.length} questions correctly</h1>
            <button onclick="location.reload()">Reload</button>
            `
                 }
