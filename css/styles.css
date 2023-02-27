@@ -41,7 +41,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.05em;
     margin: 0;
-    padding: 1.2em;
+    padding: 1.5em 0;
     color: #fff;
 }
 
@@ -52,35 +52,35 @@ ul {
 ul li {
     font-size: 1.2em;
     margin: 1rem auto;
-    color: #c4b4b4;
+    color: #d6c7c7;
 }
 
 ul li label {
     cursor: pointer;
 }
 
+.answer {
+    margin-right: 15px;
+}
+
 button {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    font-weight: 700;
     width: 100%;
     cursor: pointer;
     border: none;
     padding: 1em;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     background-color: #fff;
     border-radius: 30px;
 }
 
 button:hover {
-    opacity: 1;
-}
-
-button:focus {
-    background-color: #fff;
-    color: #000;
-    font-weight: 700;
+    background-color: #000;
+    color: #fff;
 }
 
 @media(max-width:480px) {
